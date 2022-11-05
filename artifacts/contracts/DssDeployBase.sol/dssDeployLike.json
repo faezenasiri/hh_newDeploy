@@ -1,0 +1,149 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "dssDeployLike",
+  "sourceName": "contracts/DssDeployBase.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract VatFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract JugFab",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addFabsA",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract VowFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract CatFab",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addFabsB",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract DogFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IRDTFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract IRDTJoinFab",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addFabsC",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract FlapFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract FlopFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract FlipFab",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addFabsD",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract ClipFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract CalcFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract SpotFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract PotFab",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addFabsE",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract CureFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract EndFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract ESMFab",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "contract PauseFab",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "addFabsF",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

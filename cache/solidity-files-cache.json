@@ -1,0 +1,1164 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/DssDeploy.sol": {
+      "lastModificationDate": 1667180829817,
+      "contentHash": "6d289066aa9d22b91301db08249f47a5",
+      "sourceName": "contracts/DssDeploy.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ds-pause/pause.sol",
+        "./dss/vat.sol",
+        "./dss/jug.sol",
+        "./dss/vow.sol",
+        "./dss/cat.sol",
+        "./dss/dog.sol",
+        "./dss/join.sol",
+        "./dss/flap.sol",
+        "./dss/flop.sol",
+        "./dss/flip.sol",
+        "./dss/clip.sol",
+        "./dss/abaci.sol",
+        "./dss/irdt.sol",
+        "./dss/cure.sol",
+        "./dss/end.sol",
+        "./esm/ESM.sol",
+        "./dss/pot.sol",
+        "./dss/spot.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.12"
+      ],
+      "artifacts": [
+        "CalcFab",
+        "CatFab",
+        "ClipFab",
+        "CureFab",
+        "DogFab",
+        "DssDeploy",
+        "ESMFab",
+        "EndFab",
+        "FlapFab",
+        "FlipFab",
+        "FlopFab",
+        "IRDTFab",
+        "IRDTJoinFab",
+        "JugFab",
+        "PauseFab",
+        "PotFab",
+        "SpotFab",
+        "VatFab",
+        "VowFab"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-pause/pause.sol": {
+      "lastModificationDate": 1667163637141,
+      "contentHash": "e84609136042c2bdba815c40da07fffb",
+      "sourceName": "contracts/ds-pause/pause.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.12"
+      ],
+      "artifacts": [
+        "DSAuth",
+        "DSAuthEvents",
+        "DSAuthority",
+        "DSPause",
+        "DSPauseProxy"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/vat.sol": {
+      "lastModificationDate": 1667162875416,
+      "contentHash": "ba224f38df9c80e89012e92778d91004",
+      "sourceName": "contracts/dss/vat.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Vat"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/jug.sol": {
+      "lastModificationDate": 1667162875416,
+      "contentHash": "c20cf8f7486eb082901777d1f4918246",
+      "sourceName": "contracts/dss/jug.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Jug",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/vow.sol": {
+      "lastModificationDate": 1667162875416,
+      "contentHash": "e29838c02a543493a03b71c357f0ae79",
+      "sourceName": "contracts/dss/vow.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "FlapLike",
+        "FlopLike",
+        "VatLike",
+        "Vow"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/cat.sol": {
+      "lastModificationDate": 1667162875408,
+      "contentHash": "f893df4254960c663f6160c23bd0cb27",
+      "sourceName": "contracts/dss/cat.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.12"
+      ],
+      "artifacts": [
+        "Cat",
+        "Kicker",
+        "VatLike",
+        "VowLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/dog.sol": {
+      "lastModificationDate": 1667162875408,
+      "contentHash": "921b3fa6dcfbbe4ab883ce67391433a8",
+      "sourceName": "contracts/dss/dog.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "ClipperLike",
+        "Dog",
+        "VatLike",
+        "VowLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/join.sol": {
+      "lastModificationDate": 1667162875412,
+      "contentHash": "5d865c6fde7b9bb47c4f88b9ede9997a",
+      "sourceName": "contracts/dss/join.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "DSTokenLike",
+        "GemJoin",
+        "GemLike",
+        "IRDTJoin",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/flap.sol": {
+      "lastModificationDate": 1667162875412,
+      "contentHash": "5eb1adeb1fea131d0f80ae222500cb21",
+      "sourceName": "contracts/dss/flap.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Flapper",
+        "GemLike",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/flop.sol": {
+      "lastModificationDate": 1667162875412,
+      "contentHash": "be8bfd019d8706f992eebe522498e00d",
+      "sourceName": "contracts/dss/flop.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Flopper",
+        "GemLike",
+        "VatLike",
+        "VowLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/flip.sol": {
+      "lastModificationDate": 1667162875412,
+      "contentHash": "938f300d4f95cc7baaff3191cf012660",
+      "sourceName": "contracts/dss/flip.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.12"
+      ],
+      "artifacts": [
+        "CatLike",
+        "Flipper",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/clip.sol": {
+      "lastModificationDate": 1667162875408,
+      "contentHash": "756f12f80f0ec7fd2068cb4ae698be11",
+      "sourceName": "contracts/dss/clip.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "AbacusLike",
+        "Clipper",
+        "ClipperCallee",
+        "DogLike",
+        "PipLike",
+        "SpotterLike",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/abaci.sol": {
+      "lastModificationDate": 1667162875408,
+      "contentHash": "b2ff459a82ab321c437b7679205d17eb",
+      "sourceName": "contracts/dss/abaci.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Abacus",
+        "ExponentialDecrease",
+        "LinearDecrease",
+        "StairstepExponentialDecrease"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/irdt.sol": {
+      "lastModificationDate": 1667162875412,
+      "contentHash": "fe35849ffb1440dc7b3bdfc97bc5202d",
+      "sourceName": "contracts/dss/irdt.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "IRDT"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/cure.sol": {
+      "lastModificationDate": 1667162875408,
+      "contentHash": "49e53f944ef573b2d3b663297d755197",
+      "sourceName": "contracts/dss/cure.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12"
+      ],
+      "artifacts": [
+        "Cure",
+        "SourceLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/end.sol": {
+      "lastModificationDate": 1667162875412,
+      "contentHash": "4ff09516112fa8321bfed33779446ac9",
+      "sourceName": "contracts/dss/end.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "CatLike",
+        "ClipLike",
+        "CureLike",
+        "DogLike",
+        "End",
+        "FlipLike",
+        "PipLike",
+        "PotLike",
+        "SpotLike",
+        "VatLike",
+        "VowLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/esm/ESM.sol": {
+      "lastModificationDate": 1667162875424,
+      "contentHash": "a729fbbcf25f96de7e6d798da53e2016",
+      "sourceName": "contracts/esm/ESM.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.12"
+      ],
+      "artifacts": [
+        "DenyLike",
+        "ESM",
+        "EndLike",
+        "GemLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/pot.sol": {
+      "lastModificationDate": 1667162875416,
+      "contentHash": "5032d4c67513366534b1dd7c8848d442",
+      "sourceName": "contracts/dss/pot.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "Pot",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/spot.sol": {
+      "lastModificationDate": 1667162875416,
+      "contentHash": "fc7f441e944f629cc768d51b202bde9a",
+      "sourceName": "contracts/dss/spot.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.12"
+      ],
+      "artifacts": [
+        "PipLike",
+        "Spotter",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/DssDeployBase.sol": {
+      "lastModificationDate": 1667307335269,
+      "contentHash": "92daa37eb7b35f613b17970f1b60ccb9",
+      "sourceName": "contracts/DssDeployBase.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DssDeploy.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.12"
+      ],
+      "artifacts": [
+        "DssDeployBaseA",
+        "DssDeployBaseB",
+        "DssDeployBaseC",
+        "DssDeployBaseD",
+        "DssDeployBaseE",
+        "DssDeployBaseF",
+        "dssDeployLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/Mockcontract.sol": {
+      "lastModificationDate": 1667180448763,
+      "contentHash": "83732daaee949d51871087b1e4976a9e",
+      "sourceName": "contracts/Mockcontract.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "Mockcontract"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-auth/auth.sol": {
+      "lastModificationDate": 1667162875388,
+      "contentHash": "f30eceb4d4be1cec4e9054acda2c7b2f",
+      "sourceName": "contracts/ds-auth/auth.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSAuth",
+        "DSAuthEvents",
+        "DSAuthority"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-token/math.sol": {
+      "lastModificationDate": 1667162875396,
+      "contentHash": "4f866046fef55ca548449f7a8e7cc77f",
+      "sourceName": "contracts/ds-token/math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.4.13"
+      ],
+      "artifacts": [
+        "DSMath"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-token/token.sol": {
+      "lastModificationDate": 1667162875396,
+      "contentHash": "302f4fa5c8c1117f937e4c7be4fc78d6",
+      "sourceName": "contracts/ds-token/token.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./math.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSToken"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-value/src/auth.sol": {
+      "lastModificationDate": 1667162875400,
+      "contentHash": "f30eceb4d4be1cec4e9054acda2c7b2f",
+      "sourceName": "contracts/ds-value/src/auth.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSAuth",
+        "DSAuthEvents",
+        "DSAuthority"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-value/src/thing.sol": {
+      "lastModificationDate": 1667162875400,
+      "contentHash": "d9167a103e369f58d0e6dae53cfa9f7b",
+      "sourceName": "contracts/ds-value/src/thing.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./auth.sol",
+        "./math.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSThing"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-value/src/math.sol": {
+      "lastModificationDate": 1667162875400,
+      "contentHash": "8c550fcfa8bd4f7feb87aaf59c230caf",
+      "sourceName": "contracts/ds-value/src/math.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">0.4.13"
+      ],
+      "artifacts": [
+        "DSMath"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/ds-value/src/value.sol": {
+      "lastModificationDate": 1667162875400,
+      "contentHash": "b3ca44e3a5f9da466febb85c30918bfe",
+      "sourceName": "contracts/ds-value/src/value.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./thing.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.23"
+      ],
+      "artifacts": [
+        "DSValue"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/dss/ethjoin.sol": {
+      "lastModificationDate": 1667376385466,
+      "contentHash": "ce4c3b6a24118a11789ae4f15289c104",
+      "sourceName": "contracts/dss/ethjoin.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.12"
+      ],
+      "artifacts": [
+        "DSTokenLike",
+        "ETHJoin",
+        "VatLike"
+      ]
+    },
+    "/home/faeze/Bitex/update_hh_newDeploy/contracts/col_token/Weth.sol": {
+      "lastModificationDate": 1667387067931,
+      "contentHash": "3e5db7f71f84afbd7857c9abd5164632",
+      "sourceName": "contracts/col_token/Weth.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.18"
+      ],
+      "artifacts": [
+        "WETH"
+      ]
+    }
+  }
+}

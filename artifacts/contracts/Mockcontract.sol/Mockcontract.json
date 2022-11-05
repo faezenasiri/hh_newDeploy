@@ -1,0 +1,36 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "Mockcontract",
+  "sourceName": "contracts/Mockcontract.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "peek",
+      "outputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        },
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "void",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b5060ad8061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060325760003560e01c806359e02dd7146037578063ac4c25b2146056575b600080fd5b603d605e565b6040805192835290151560208301528051918290030190f35b605c606b565b005b60015460005460ff169091565b6000805460ff1916905556fea26469706673582212206bdada6f20af2d3a96301a349dcce97c9e0fea3ba4459e263c2887928285aa8564736f6c634300060c0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060325760003560e01c806359e02dd7146037578063ac4c25b2146056575b600080fd5b603d605e565b6040805192835290151560208301528051918290030190f35b605c606b565b005b60015460005460ff169091565b6000805460ff1916905556fea26469706673582212206bdada6f20af2d3a96301a349dcce97c9e0fea3ba4459e263c2887928285aa8564736f6c634300060c0033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

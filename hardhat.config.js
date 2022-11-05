@@ -31,6 +31,10 @@ module.exports = {
       },
     },
   },
+
+  etherscan: {
+    apiKey: "KTUBNN7VIKZT9C5VC5HW1WBPN5P17XTD2P",
+  },
   networks: {
     goerli: {
       chainId: 5,

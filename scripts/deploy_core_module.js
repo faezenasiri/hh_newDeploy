@@ -1,25 +1,22 @@
-// We require the Hardhat Runtime Environment explicitly here. This is optional
-// but useful for running the script in a standalone fashion through `node <script>`.
-//
-// You can also run a script with `npx hardhat run <script>`. If you do that, Hardhat
-// will compile your contracts, add the Hardhat Runtime Environment's members to the
-// global scope, and execute the script.
+const config = require("../config.js");
+
 require("@nomicfoundation/hardhat-toolbox");
 
 async function main() {
   const dssDeploy = await (
     await ethers.getContractFactory("DssDeploy")
-  ).attach("0xb12BfaDaA2Bb030e97362F4bA4C525e3B63C1781");
+  ).attach(config.dssDeployaddress);
+  const WAIT_BLOCK_CONFIRMATIONS = 6;
 
-  await dssDeploy.deployVat();
+  await dssDeploy.deployVat().wait(WAIT_BLOCK_CONFIRMATIONS);
 
-  await dssDeploy.deployIRDT(5);
-  await dssDeploy.deployTaxation();
-  await dssDeploy.deployAuctions("0x386b1807a2454d02e3ad162af26f209a340f90f5");
-  await dssDeploy.deployLiquidator();
-  await dssDeploy.deployEnd();
-  await dssDeploy.deployPause(0, "0x386b1807a2454d02e3ad162af26f209a340f90f5");
-  await dssDeploy.deployESM("0x386b1807a2454d02e3ad162af26f209a340f90f5", 10);
+  await dssDeploy.deployIRDT(config.chain_id).wait(WAIT_BLOCK_CONFIRMATIONS);
+  await dssDeploy.deployTaxation().wait(WAIT_BLOCK_CONFIRMATIONS);
+  await dssDeploy.deployAuctions(config.owner).wait(WAIT_BLOCK_CONFIRMATIONS);
+  await dssDeploy.deployLiquidator().wait(WAIT_BLOCK_CONFIRMATIONS);
+  await dssDeploy.deployEnd().wait(WAIT_BLOCK_CONFIRMATIONS);
+  await dssDeploy.deployPause(config.pause_time, config.owner).wait(WAIT_BLOCK_CONFIRMATIONS);
+  await dssDeploy.deployESM(config.owner, config.esm_time).wait(WAIT_BLOCK_CONFIRMATIONS);
 }
 
 main().catch((error) => {
